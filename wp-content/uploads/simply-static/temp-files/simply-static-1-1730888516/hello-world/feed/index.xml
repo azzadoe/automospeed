@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	Comments for Automospeed	</title>
-	<atom:link href="https://automospeed.web.id/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://automospeed.web.id/</link>
+	Comments on: Hello world!	</title>
+	<atom:link href="https://automospeed.web.id/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>https://automospeed.web.id/hello-world/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=hello-world</link>
 	<description></description>
 	<lastBuildDate>Wed, 06 Nov 2024 09:14:36 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -19,8 +19,8 @@
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 	<item>
 		<title>
-		Comment on Hello world! by A WordPress Commenter		</title>
-		<link>https://automospeed.web.id/2024/11/06/hello-world/#comment-1</link>
+		By: A WordPress Commenter		</title>
+		<link>https://automospeed.web.id/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Wed, 06 Nov 2024 09:14:36 +0000</pubDate>
