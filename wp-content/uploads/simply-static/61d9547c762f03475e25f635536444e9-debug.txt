@@ -1,575 +1,847 @@
-[2024-11-07 09:57:56] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-11-07 09:57:56] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
-[2024-11-07 09:57:56] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-11-07 09:57:56] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-11-07 09:57:56] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-11-07 09:57:56] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-11-07 09:57:56] [class-ss-setup-task.php:33] Creating archive directory: D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476\
-[2024-11-07 09:57:56] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/automospeed/
-[2024-11-07 09:57:56] [class-ss-setup-task.php:116] File D:\XAMPP\htdocs\automospeed/robots.txt exists; adding to queue as: D:/XAMPP/htdocs/automospeed/robots.txt
-[2024-11-07 09:57:56] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/sitemap.xml
-[2024-11-07 09:57:56] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/post-sitemap.xml
-[2024-11-07 09:57:56] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/page-sitemap.xml
-[2024-11-07 09:57:56] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/attachment-sitemap.xml
-[2024-11-07 09:57:56] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/category-sitemap.xml
-[2024-11-07 09:57:56] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/post_tag-sitemap.xml
-[2024-11-07 09:57:56] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-11-07 09:57:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-07 09:57:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-07 09:57:56] [class-ss-fetch-urls-task.php:69] Total pages: 8; Pages remaining: 8
-[2024-11-07 09:57:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/
-[2024-11-07 09:57:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 8
-[2024-11-07 09:57:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f24d43b3-GAcmGX.tmp
-[2024-11-07 09:57:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/?simply_static_page=478
-[2024-11-07 09:57:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/?simply_static_page=478
-[2024-11-07 09:57:57] [class-ss-url-fetcher.php:103] Filesize: 110820 bytes
-[2024-11-07 09:57:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-11-07 09:57:57] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-11-07 09:57:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f24d43b3-GAcmGX.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/index.html
-[2024-11-07 09:57:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:159] Adding 26 URLs to the queue
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:57:58] [class-ss-page.php:119] Checking Content Identical:46d9ca36777308a2989b0514aec66786c4e5e3a9===. Value: FALSE
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:72] URL: D:/XAMPP/htdocs/automospeed/robots.txt
-[2024-11-07 09:57:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 8
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/sitemap.xml
-[2024-11-07 09:57:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 8
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f26cf55c-T1wOyV.tmp
-[2024-11-07 09:57:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/sitemap.xml?simply_static_page=480
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/sitemap.xml?simply_static_page=480
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:103] Filesize: 715 bytes
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap.xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f26cf55c-T1wOyV.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/sitemap.xml
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:57:58] [class-ss-page.php:119] Checking Content Identical:0c5af4c55008633fb4a497d26c97bf7289cc4571===. Value: FALSE
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/post-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 8
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f26d5340-iPY9LC.tmp
-[2024-11-07 09:57:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/post-sitemap.xml?simply_static_page=481
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/post-sitemap.xml?simply_static_page=481
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:103] Filesize: 698 bytes
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:233] New filename for static page: /post-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f26d5340-iPY9LC.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/post-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:57:58] [class-ss-page.php:119] Checking Content Identical:c962175bb93a6088dae7f0c3bdef147ab3598b05===. Value: FALSE
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/page-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 8
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f26df536-DRwwmT.tmp
-[2024-11-07 09:57:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/page-sitemap.xml?simply_static_page=482
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/page-sitemap.xml?simply_static_page=482
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:103] Filesize: 698 bytes
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:233] New filename for static page: /page-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f26df536-DRwwmT.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/page-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:57:58] [class-ss-page.php:119] Checking Content Identical:dc0d8c95ec0858197b9ab3f2fdff2816f14b0ee1===. Value: FALSE
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/attachment-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 8
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f26e346f-aG8Aoa.tmp
-[2024-11-07 09:57:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/attachment-sitemap.xml?simply_static_page=483
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/attachment-sitemap.xml?simply_static_page=483
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:103] Filesize: 480 bytes
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:233] New filename for static page: /attachment-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f26e346f-aG8Aoa.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/attachment-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:57:58] [class-ss-page.php:119] Checking Content Identical:0aafb7354be0030bf3c3cc2ffff4ca64b6912123===. Value: FALSE
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 8
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f26eacdd-FOl6DT.tmp
-[2024-11-07 09:57:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category-sitemap.xml?simply_static_page=484
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category-sitemap.xml?simply_static_page=484
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:103] Filesize: 714 bytes
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:233] New filename for static page: /category-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f26eacdd-FOl6DT.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/category-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:57:58] [class-ss-page.php:119] Checking Content Identical:0b8a6f27408ea12a324ae6df7880947fb72ee8ba===. Value: FALSE
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/post_tag-sitemap.xml
-[2024-11-07 09:57:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 8
-[2024-11-07 09:57:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f26f2a9d-li6ffn.tmp
-[2024-11-07 09:57:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/post_tag-sitemap.xml?simply_static_page=485
-[2024-11-07 09:57:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/post_tag-sitemap.xml?simply_static_page=485
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:103] Filesize: 708 bytes
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:233] New filename for static page: /post_tag-sitemap.xml
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f26f2a9d-li6ffn.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/post_tag-sitemap.xml
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:57:59] [class-ss-page.php:119] Checking Content Identical:0e782e1c82fa2616d1a10c4a26f93acf22b1cce6===. Value: FALSE
-[2024-11-07 09:57:59] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 8 pages/files
-[2024-11-07 09:57:59] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-07 09:57:59] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-07 09:57:59] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 25
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/
-[2024-11-07 09:57:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 33
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2706b83-OLWBuW.tmp
-[2024-11-07 09:57:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/?simply_static_page=486
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/?simply_static_page=486
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:103] Filesize: 122517 bytes
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:233] New filename for static page: /ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/index.html
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2706b83-OLWBuW.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/index.html
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:57:59] [class-ss-page.php:119] Checking Content Identical:ff6ffd95ebc57f07a42be6d734d62ab834275ed9===. Value: FALSE
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/author/automadmin/
-[2024-11-07 09:57:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 33
-[2024-11-07 09:57:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f27f207d-tjeRA9.tmp
-[2024-11-07 09:57:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/author/automadmin/?simply_static_page=487
-[2024-11-07 09:57:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/author/automadmin/?simply_static_page=487
-[2024-11-07 09:58:00] [class-ss-url-fetcher.php:103] Filesize: 63275 bytes
-[2024-11-07 09:58:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:00] [class-ss-url-fetcher.php:233] New filename for static page: /author/automadmin/index.html
-[2024-11-07 09:58:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f27f207d-tjeRA9.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/author/automadmin/index.html
-[2024-11-07 09:58:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:01] [class-ss-page.php:119] Checking Content Identical:5464e051d571a22753be0dcebe50fc2b38af1d85===. Value: FALSE
-[2024-11-07 09:58:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/mobil/
-[2024-11-07 09:58:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 33
-[2024-11-07 09:58:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f29b69fe-2CcrA8.tmp
-[2024-11-07 09:58:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/mobil/?simply_static_page=488
-[2024-11-07 09:58:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/mobil/?simply_static_page=488
-[2024-11-07 09:58:01] [class-ss-url-fetcher.php:103] Filesize: 110014 bytes
-[2024-11-07 09:58:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:01] [class-ss-url-fetcher.php:233] New filename for static page: /category/mobil/index.html
-[2024-11-07 09:58:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f29b69fe-2CcrA8.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/category/mobil/index.html
-[2024-11-07 09:58:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:02] [class-ss-page.php:119] Checking Content Identical:6dbf46d553d8d52a0c5898599820b2429dec3c1f===. Value: FALSE
-[2024-11-07 09:58:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/mobil-bekas/
-[2024-11-07 09:58:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 33
-[2024-11-07 09:58:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2a9c1bf-pEqGEf.tmp
-[2024-11-07 09:58:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/mobil-bekas/?simply_static_page=489
-[2024-11-07 09:58:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/mobil-bekas/?simply_static_page=489
-[2024-11-07 09:58:02] [class-ss-url-fetcher.php:103] Filesize: 110104 bytes
-[2024-11-07 09:58:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:02] [class-ss-url-fetcher.php:233] New filename for static page: /category/mobil-bekas/index.html
-[2024-11-07 09:58:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2a9c1bf-pEqGEf.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/category/mobil-bekas/index.html
-[2024-11-07 09:58:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:03] [class-ss-page.php:119] Checking Content Identical:670300f6766837c8fea8f93b32ada58488e8399a===. Value: FALSE
-[2024-11-07 09:58:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/tag/mobil/
-[2024-11-07 09:58:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 33
-[2024-11-07 09:58:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2b751fa-XNf5t7.tmp
-[2024-11-07 09:58:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/tag/mobil/?simply_static_page=490
-[2024-11-07 09:58:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/tag/mobil/?simply_static_page=490
-[2024-11-07 09:58:03] [class-ss-url-fetcher.php:103] Filesize: 119226 bytes
-[2024-11-07 09:58:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:03] [class-ss-url-fetcher.php:233] New filename for static page: /tag/mobil/index.html
-[2024-11-07 09:58:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2b751fa-XNf5t7.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/tag/mobil/index.html
-[2024-11-07 09:58:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:04] [class-ss-page.php:119] Checking Content Identical:a495f2075fe75bb4a0d9e0689c961def993c74d2===. Value: FALSE
-[2024-11-07 09:58:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/tag/mobil-bekas/
-[2024-11-07 09:58:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 33
-[2024-11-07 09:58:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2c482d0-ArqLQ6.tmp
-[2024-11-07 09:58:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/tag/mobil-bekas/?simply_static_page=491
-[2024-11-07 09:58:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/tag/mobil-bekas/?simply_static_page=491
-[2024-11-07 09:58:04] [class-ss-url-fetcher.php:103] Filesize: 119370 bytes
-[2024-11-07 09:58:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:04] [class-ss-url-fetcher.php:233] New filename for static page: /tag/mobil-bekas/index.html
-[2024-11-07 09:58:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2c482d0-ArqLQ6.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/tag/mobil-bekas/index.html
-[2024-11-07 09:58:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:05] [class-ss-page.php:119] Checking Content Identical:de8b453b476351ef61c64f01699b8a428b52b16b===. Value: FALSE
-[2024-11-07 09:58:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/tag/tips/
-[2024-11-07 09:58:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 33
-[2024-11-07 09:58:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2d23716-P4Soml.tmp
-[2024-11-07 09:58:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/tag/tips/?simply_static_page=492
-[2024-11-07 09:58:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/tag/tips/?simply_static_page=492
-[2024-11-07 09:58:05] [class-ss-url-fetcher.php:103] Filesize: 109898 bytes
-[2024-11-07 09:58:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:05] [class-ss-url-fetcher.php:233] New filename for static page: /tag/tips/index.html
-[2024-11-07 09:58:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2d23716-P4Soml.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/tag/tips/index.html
-[2024-11-07 09:58:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:b2c4514184ecee10350f460a0c8f7551091d05a2===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/2024/11/
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e072f0-OuR4pi.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/2024/11/?simply_static_page=493
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/2024/11/?simply_static_page=493
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 1291 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/index.html
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e072f0-OuR4pi.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/2024/11/index.html
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:382dfcc38590950d8a3d0cac9c401df5e00c217a===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-includes/js/dist/hooks.min.js
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e0c9ef-znEpyF.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-includes/js/dist/hooks.min.js?simply_static_page=494
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-includes/js/dist/hooks.min.js?simply_static_page=494
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e0c9ef-znEpyF.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-includes/js/dist/hooks.min.js
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-includes/js/dist/i18n.min.js
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e1332d-Y5MOqW.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-includes/js/dist/i18n.min.js?simply_static_page=495
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-includes/js/dist/i18n.min.js?simply_static_page=495
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e1332d-Y5MOqW.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-includes/js/dist/i18n.min.js
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/swv/js/index.js
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e2685b-o4lrnY.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=496
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=496
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 12512 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/swv/js/index.js
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e2685b-o4lrnY.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/plugins/contact-form-7/includes/swv/js/index.js
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:3c76d4209fdbcbd3650655852ad4ed73846e15ff===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/js/index.js
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e393dc-RB857F.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=497
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=497
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 13452 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/js/index.js
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e393dc-RB857F.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/plugins/contact-form-7/includes/js/index.js
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:70a679e2769825236f83bcc56965a9d0bd86c4e9===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/js/menu.min.js
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e46633-yW8hR6.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/js/menu.min.js?simply_static_page=498
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/js/menu.min.js?simply_static_page=498
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 7333 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/js/menu.min.js
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e46633-yW8hR6.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/themes/generatepress/assets/js/menu.min.js
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:7452d643e468caf6db8ecf07618f1cb7ff3f7651===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/js/back-to-top.min.js
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e4a667-Uja0YJ.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/js/back-to-top.min.js?simply_static_page=499
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/js/back-to-top.min.js?simply_static_page=499
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 737 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/js/back-to-top.min.js
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e4a667-Uja0YJ.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/themes/generatepress/assets/js/back-to-top.min.js
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:0091cadf005c865d7c4ef093fac9d35566fd1e48===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/uploads/2024/11/fav.png
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e4e2de-ZLU4gO.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/uploads/2024/11/fav.png?simply_static_page=500
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/uploads/2024/11/fav.png?simply_static_page=500
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 14381 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/fav.png
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e4e2de-ZLU4gO.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/uploads/2024/11/fav.png
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:1641f3bacfedd5ee19e86400d054bf681d54e0c2===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/feed/
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e5a4dd-8mk5U2.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/feed/?simply_static_page=501
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/feed/?simply_static_page=501
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e5a4dd-8mk5U2.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/feed/index.html
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:12901974b4319076d33fe1a7b92862c9f59a8c54===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/comments/feed/
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e60aca-hcjpXq.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/comments/feed/?simply_static_page=502
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/comments/feed/?simply_static_page=502
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 1344 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e60aca-hcjpXq.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/comments/feed/index.html
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:fff4127e9350f840c329c6751f4fa27c4fd3c914===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-includes/css/dist/block-library/style.min.css
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e66dfe-ZlrcMk.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-includes/css/dist/block-library/style.min.css?simply_static_page=503
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-includes/css/dist/block-library/style.min.css?simply_static_page=503
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e66dfe-ZlrcMk.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-includes/css/dist/block-library/style.min.css
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/css/styles.css
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e7423b-FZ2haS.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=504
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=504
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 2894 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/css/styles.css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e7423b-FZ2haS.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/plugins/contact-form-7/includes/css/styles.css
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:dbc9c4139e49d0d9fb41b7191aad1a2db6c555fd===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e78d2f-zjuzV4.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css?simply_static_page=505
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css?simply_static_page=505
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 12551 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e78d2f-zjuzV4.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:522daa8cfb0cb290ac48d486b0e620ce6e0175b2===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/style.min.css
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e85852-yAPEEb.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/css/style.min.css?simply_static_page=506
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/style.min.css?simply_static_page=506
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 21908 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/style.min.css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e85852-yAPEEb.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/themes/generatepress/assets/css/style.min.css
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:3437be24287bc1869006ddab52b7cf49e8fe9dbd===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/mobile.min.css
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e92bca-6YsA2o.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/css/mobile.min.css?simply_static_page=507
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/mobile.min.css?simply_static_page=507
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 3781 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/mobile.min.css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e92bca-6YsA2o.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/themes/generatepress/assets/css/mobile.min.css
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:84edbc8dfedb66d55c195fef1397b9ce4232ac33===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/components/font-icons.min.css
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e975e3-E1qRJ4.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/css/components/font-icons.min.css?simply_static_page=508
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/components/font-icons.min.css?simply_static_page=508
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 3324 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/components/font-icons.min.css
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e975e3-E1qRJ4.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/wp-content/themes/generatepress/assets/css/components/font-icons.min.css
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:1a99eede86d147d03be4654d44bdb85edf952585===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/xmlrpc.php
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/xmlrpc.php
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-11-07 09:58:06] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 8 of 33 pages/files
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:69] Total pages: 34; Pages remaining: 1
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/feed/index.xml
-[2024-11-07 09:58:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 34
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2e9f234-S9A4nx.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/feed/index.xml?simply_static_page=511
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/feed/index.xml?simply_static_page=511
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:103] Filesize: 1680 bytes
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2e9f234-S9A4nx.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476/feed/index.xml
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-07 09:58:06] [class-ss-page.php:119] Checking Content Identical:ac5927ce62aff9db1015deefc5569bf00c0ad165===. Value: FALSE
-[2024-11-07 09:58:06] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 34 pages/files
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-07 09:58:06] [class-ss-fetch-urls-task.php:69] Total pages: 34; Pages remaining: 0
-[2024-11-07 09:58:06] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 34 of 34 pages/files
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-11-07 09:58:06] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-11-07 09:58:06] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c8f2ea60b3-xuOgMY.tmp
-[2024-11-07 09:58:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/1730973487?simply_static_page=0
-[2024-11-07 09:58:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/1730973487?simply_static_page=0
-[2024-11-07 09:58:07] [class-ss-url-fetcher.php:103] Filesize: 107930 bytes
-[2024-11-07 09:58:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-11-07 09:58:07] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-11-07 09:58:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c8f2ea60b3-xuOgMY.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730973476\404/index.html
-[2024-11-07 09:58:07] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-11-07 09:58:08] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-11-07 09:58:08] [class-ss-page.php:119] Checking Content Identical:b0048751b4c293452e87f80bb8c1a241a091dd7f===. Value: FALSE
-[2024-11-07 09:58:08] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-11-07 09:58:08] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 31 of 31 files
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/author/automadmin
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/author/automadmin
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/mobil
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/mobil
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/mobil-bekas
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/mobil-bekas
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/tag/mobil
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/tag/mobil
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/tag/mobil-bekas
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/tag/mobil-bekas
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/tag/tips
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/tag/tips
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/2024/11
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/2024/11
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-includes/js/dist
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-includes/js/dist
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-includes/js/dist
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-includes/js/dist
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/swv/js
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/swv/js
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/js
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/js
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/js
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/js
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/js
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/js
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/uploads/2024/11
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/uploads/2024/11
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/feed
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/feed
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/comments/feed
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/comments/feed
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-includes/css/dist/block-library
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-includes/css/dist/block-library
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/css
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/css
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css/components
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css/components
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/feed
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/feed
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:31. Processed Pages: 31
-[2024-11-07 09:58:08] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 31 of 31 files
-[2024-11-07 09:58:08] [trait-can-process-pages.php:110] Total pages: 31; Pages remaining: 0
-[2024-11-07 09:58:08] [class-ss-transfer-files-locally-task.php:254] Transferring 404 Page
-[2024-11-07 09:58:08] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://automospeed.web.id/" target="_blank">https://automospeed.web.id/</a>
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-11-07 09:58:08] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-11-07 09:58:08] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-11-07 09:58:08] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:12
+[2024-11-07 10:39:33] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-07 10:39:33] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-11-07 10:39:33] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-07 10:39:34] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-07 10:39:34] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-07 10:39:34] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-07 10:39:34] [class-ss-setup-task.php:33] Creating archive directory: D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973\
+[2024-11-07 10:39:34] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/automospeed/
+[2024-11-07 10:39:34] [class-ss-setup-task.php:116] File D:\XAMPP\htdocs\automospeed/robots.txt exists; adding to queue as: D:/XAMPP/htdocs/automospeed/robots.txt
+[2024-11-07 10:39:34] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/sitemap.xml
+[2024-11-07 10:39:34] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/post-sitemap.xml
+[2024-11-07 10:39:34] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/page-sitemap.xml
+[2024-11-07 10:39:34] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/attachment-sitemap.xml
+[2024-11-07 10:39:34] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/category-sitemap.xml
+[2024-11-07 10:39:34] [class-aio-seo-integration.php:80] Adding sitemap URL to queue: http://localhost/automospeed/post_tag-sitemap.xml
+[2024-11-07 10:39:34] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-07 10:39:34] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 10:39:34] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 10:39:34] [class-ss-fetch-urls-task.php:69] Total pages: 8; Pages remaining: 8
+[2024-11-07 10:39:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/
+[2024-11-07 10:39:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 8
+[2024-11-07 10:39:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e63322d-CCjlLu.tmp
+[2024-11-07 10:39:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/?simply_static_page=512
+[2024-11-07 10:39:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/?simply_static_page=512
+[2024-11-07 10:39:34] [class-ss-url-fetcher.php:103] Filesize: 119409 bytes
+[2024-11-07 10:39:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:39:34] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-11-07 10:39:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e63322d-CCjlLu.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/index.html
+[2024-11-07 10:39:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:35] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-11-07 10:39:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:36] [class-ss-page.php:119] Checking Content Identical:00e843b1e9422069fcaf11712b08f0f051c851ad===. Value: FALSE
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:72] URL: D:/XAMPP/htdocs/automospeed/robots.txt
+[2024-11-07 10:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 8
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/sitemap.xml
+[2024-11-07 10:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 8
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e80aff0-cEDjNr.tmp
+[2024-11-07 10:39:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/sitemap.xml?simply_static_page=514
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/sitemap.xml?simply_static_page=514
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:103] Filesize: 753 bytes
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap.xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e80aff0-cEDjNr.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/sitemap.xml
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:36] [class-ss-page.php:119] Checking Content Identical:2f20e7580baf2e08dd6e3fe550a33cd617c17049===. Value: FALSE
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/post-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 8
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e8103e0-II0GS4.tmp
+[2024-11-07 10:39:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/post-sitemap.xml?simply_static_page=515
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/post-sitemap.xml?simply_static_page=515
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:103] Filesize: 698 bytes
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /post-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e8103e0-II0GS4.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/post-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:36] [class-ss-page.php:119] Checking Content Identical:c962175bb93a6088dae7f0c3bdef147ab3598b05===. Value: FALSE
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/page-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 8
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e81a056-M99VMD.tmp
+[2024-11-07 10:39:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/page-sitemap.xml?simply_static_page=516
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/page-sitemap.xml?simply_static_page=516
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:103] Filesize: 698 bytes
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /page-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e81a056-M99VMD.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/page-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:36] [class-ss-page.php:119] Checking Content Identical:dc0d8c95ec0858197b9ab3f2fdff2816f14b0ee1===. Value: FALSE
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/attachment-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 8
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e825b38-DTFbnk.tmp
+[2024-11-07 10:39:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/attachment-sitemap.xml?simply_static_page=517
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/attachment-sitemap.xml?simply_static_page=517
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:103] Filesize: 480 bytes
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /attachment-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e825b38-DTFbnk.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/attachment-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:36] [class-ss-page.php:119] Checking Content Identical:0aafb7354be0030bf3c3cc2ffff4ca64b6912123===. Value: FALSE
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 8
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e831135-k7n1xf.tmp
+[2024-11-07 10:39:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category-sitemap.xml?simply_static_page=518
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category-sitemap.xml?simply_static_page=518
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:103] Filesize: 714 bytes
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /category-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e831135-k7n1xf.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:36] [class-ss-page.php:119] Checking Content Identical:0b8a6f27408ea12a324ae6df7880947fb72ee8ba===. Value: FALSE
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/post_tag-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 8
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e83cbe8-sfallc.tmp
+[2024-11-07 10:39:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/post_tag-sitemap.xml?simply_static_page=519
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/post_tag-sitemap.xml?simply_static_page=519
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:103] Filesize: 708 bytes
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /post_tag-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e83cbe8-sfallc.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/post_tag-sitemap.xml
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:36] [class-ss-page.php:119] Checking Content Identical:0e782e1c82fa2616d1a10c4a26f93acf22b1cce6===. Value: FALSE
+[2024-11-07 10:39:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 8 pages/files
+[2024-11-07 10:39:36] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-07 10:39:36] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 10:39:36] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:69] Total pages: 40; Pages remaining: 32
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/
+[2024-11-07 10:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 40
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e848147-N2keRD.tmp
+[2024-11-07 10:39:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/?simply_static_page=520
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/?simply_static_page=520
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:103] Filesize: 122517 bytes
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/index.html
+[2024-11-07 10:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e848147-N2keRD.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual/index.html
+[2024-11-07 10:39:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:37] [class-ss-page.php:119] Checking Content Identical:ff6ffd95ebc57f07a42be6d734d62ab834275ed9===. Value: FALSE
+[2024-11-07 10:39:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/author/automadmin/
+[2024-11-07 10:39:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 40
+[2024-11-07 10:39:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98e9300d5-1CjzNL.tmp
+[2024-11-07 10:39:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/author/automadmin/?simply_static_page=521
+[2024-11-07 10:39:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/author/automadmin/?simply_static_page=521
+[2024-11-07 10:39:37] [class-ss-url-fetcher.php:103] Filesize: 63275 bytes
+[2024-11-07 10:39:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:37] [class-ss-url-fetcher.php:233] New filename for static page: /author/automadmin/index.html
+[2024-11-07 10:39:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98e9300d5-1CjzNL.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/author/automadmin/index.html
+[2024-11-07 10:39:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:39] [class-ss-page.php:119] Checking Content Identical:5464e051d571a22753be0dcebe50fc2b38af1d85===. Value: FALSE
+[2024-11-07 10:39:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/kendaraan-listrik/
+[2024-11-07 10:39:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 40
+[2024-11-07 10:39:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98eb18123-JOhBVJ.tmp
+[2024-11-07 10:39:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/kendaraan-listrik/?simply_static_page=522
+[2024-11-07 10:39:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/kendaraan-listrik/?simply_static_page=522
+[2024-11-07 10:39:39] [class-ss-url-fetcher.php:103] Filesize: 111840 bytes
+[2024-11-07 10:39:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:39:39] [class-ss-url-fetcher.php:233] New filename for static page: /category/kendaraan-listrik/index.html
+[2024-11-07 10:39:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98eb18123-JOhBVJ.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category/kendaraan-listrik/index.html
+[2024-11-07 10:39:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:40] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-11-07 10:39:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:41] [class-ss-page.php:119] Checking Content Identical:d7dc6a9bc84c9c9918f1fba22c84639d9a2134fa===. Value: FALSE
+[2024-11-07 10:39:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/mobil/
+[2024-11-07 10:39:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 40
+[2024-11-07 10:39:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98ed2c084-bP7ZHl.tmp
+[2024-11-07 10:39:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/mobil/?simply_static_page=523
+[2024-11-07 10:39:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/mobil/?simply_static_page=523
+[2024-11-07 10:39:41] [class-ss-url-fetcher.php:103] Filesize: 110014 bytes
+[2024-11-07 10:39:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:41] [class-ss-url-fetcher.php:233] New filename for static page: /category/mobil/index.html
+[2024-11-07 10:39:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98ed2c084-bP7ZHl.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category/mobil/index.html
+[2024-11-07 10:39:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:42] [class-ss-page.php:119] Checking Content Identical:6dbf46d553d8d52a0c5898599820b2429dec3c1f===. Value: FALSE
+[2024-11-07 10:39:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/mobil-bekas/
+[2024-11-07 10:39:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 40
+[2024-11-07 10:39:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98ee1885d-7nDULE.tmp
+[2024-11-07 10:39:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/mobil-bekas/?simply_static_page=524
+[2024-11-07 10:39:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/mobil-bekas/?simply_static_page=524
+[2024-11-07 10:39:42] [class-ss-url-fetcher.php:103] Filesize: 110104 bytes
+[2024-11-07 10:39:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:42] [class-ss-url-fetcher.php:233] New filename for static page: /category/mobil-bekas/index.html
+[2024-11-07 10:39:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98ee1885d-7nDULE.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category/mobil-bekas/index.html
+[2024-11-07 10:39:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:43] [class-ss-page.php:119] Checking Content Identical:670300f6766837c8fea8f93b32ada58488e8399a===. Value: FALSE
+[2024-11-07 10:39:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/motor/
+[2024-11-07 10:39:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 40
+[2024-11-07 10:39:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98ef02e2e-qHc6rQ.tmp
+[2024-11-07 10:39:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/motor/?simply_static_page=525
+[2024-11-07 10:39:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/motor/?simply_static_page=525
+[2024-11-07 10:39:43] [class-ss-url-fetcher.php:103] Filesize: 111660 bytes
+[2024-11-07 10:39:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:39:43] [class-ss-url-fetcher.php:233] New filename for static page: /category/motor/index.html
+[2024-11-07 10:39:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98ef02e2e-qHc6rQ.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category/motor/index.html
+[2024-11-07 10:39:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:44] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-11-07 10:39:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:44] [class-ss-page.php:119] Checking Content Identical:ac47aee784eef1dc8f4ab255b0715af84cca986f===. Value: FALSE
+[2024-11-07 10:39:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/tag/mobil/
+[2024-11-07 10:39:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 40
+[2024-11-07 10:39:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98f0ac5f9-DMx5S0.tmp
+[2024-11-07 10:39:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/tag/mobil/?simply_static_page=526
+[2024-11-07 10:39:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/tag/mobil/?simply_static_page=526
+[2024-11-07 10:39:44] [class-ss-url-fetcher.php:103] Filesize: 119226 bytes
+[2024-11-07 10:39:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:44] [class-ss-url-fetcher.php:233] New filename for static page: /tag/mobil/index.html
+[2024-11-07 10:39:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98f0ac5f9-DMx5S0.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/tag/mobil/index.html
+[2024-11-07 10:39:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:45] [class-ss-page.php:119] Checking Content Identical:a495f2075fe75bb4a0d9e0689c961def993c74d2===. Value: FALSE
+[2024-11-07 10:39:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/tag/mobil-bekas/
+[2024-11-07 10:39:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 40
+[2024-11-07 10:39:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98f18a59f-ceI5Nw.tmp
+[2024-11-07 10:39:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/tag/mobil-bekas/?simply_static_page=527
+[2024-11-07 10:39:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/tag/mobil-bekas/?simply_static_page=527
+[2024-11-07 10:39:45] [class-ss-url-fetcher.php:103] Filesize: 119370 bytes
+[2024-11-07 10:39:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:45] [class-ss-url-fetcher.php:233] New filename for static page: /tag/mobil-bekas/index.html
+[2024-11-07 10:39:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98f18a59f-ceI5Nw.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/tag/mobil-bekas/index.html
+[2024-11-07 10:39:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:46] [class-ss-page.php:119] Checking Content Identical:de8b453b476351ef61c64f01699b8a428b52b16b===. Value: FALSE
+[2024-11-07 10:39:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/tag/tips/
+[2024-11-07 10:39:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 40
+[2024-11-07 10:39:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98f267a4d-Dr8YuE.tmp
+[2024-11-07 10:39:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/tag/tips/?simply_static_page=528
+[2024-11-07 10:39:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/tag/tips/?simply_static_page=528
+[2024-11-07 10:39:46] [class-ss-url-fetcher.php:103] Filesize: 109898 bytes
+[2024-11-07 10:39:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:46] [class-ss-url-fetcher.php:233] New filename for static page: /tag/tips/index.html
+[2024-11-07 10:39:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98f267a4d-Dr8YuE.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/tag/tips/index.html
+[2024-11-07 10:39:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:47] [class-ss-page.php:119] Checking Content Identical:b2c4514184ecee10350f460a0c8f7551091d05a2===. Value: FALSE
+[2024-11-07 10:39:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/terms-and-conditional/
+[2024-11-07 10:39:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 40
+[2024-11-07 10:39:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98f34a9f6-vWbbJ5.tmp
+[2024-11-07 10:39:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/terms-and-conditional/?simply_static_page=529
+[2024-11-07 10:39:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/terms-and-conditional/?simply_static_page=529
+[2024-11-07 10:39:47] [class-ss-url-fetcher.php:103] Filesize: 125461 bytes
+[2024-11-07 10:39:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:39:47] [class-ss-url-fetcher.php:233] New filename for static page: /terms-and-conditional/index.html
+[2024-11-07 10:39:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98f34a9f6-vWbbJ5.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/terms-and-conditional/index.html
+[2024-11-07 10:39:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:48] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-11-07 10:39:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:49] [class-ss-page.php:119] Checking Content Identical:3ec7951692b5da1a5a0f1b1c794dd4993a621f0e===. Value: FALSE
+[2024-11-07 10:39:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/uncategorized/
+[2024-11-07 10:39:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 40
+[2024-11-07 10:39:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98f504b67-I7AwQl.tmp
+[2024-11-07 10:39:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/uncategorized/?simply_static_page=530
+[2024-11-07 10:39:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/uncategorized/?simply_static_page=530
+[2024-11-07 10:39:49] [class-ss-url-fetcher.php:103] Filesize: 116269 bytes
+[2024-11-07 10:39:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:39:49] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-11-07 10:39:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98f504b67-I7AwQl.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category/uncategorized/index.html
+[2024-11-07 10:39:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:50] [class-ss-fetch-urls-task.php:159] Adding 32 URLs to the queue
+[2024-11-07 10:39:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:50] [class-ss-page.php:119] Checking Content Identical:28ba004487816f0668b3f15a04235b1ffafa42fd===. Value: FALSE
+[2024-11-07 10:39:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/tentang-automospeed/
+[2024-11-07 10:39:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 40
+[2024-11-07 10:39:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98f6a2b0b-hwnmeB.tmp
+[2024-11-07 10:39:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/tentang-automospeed/?simply_static_page=531
+[2024-11-07 10:39:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/tentang-automospeed/?simply_static_page=531
+[2024-11-07 10:39:51] [class-ss-url-fetcher.php:103] Filesize: 115475 bytes
+[2024-11-07 10:39:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:39:51] [class-ss-url-fetcher.php:233] New filename for static page: /tentang-automospeed/index.html
+[2024-11-07 10:39:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98f6a2b0b-hwnmeB.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/tentang-automospeed/index.html
+[2024-11-07 10:39:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:52] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-11-07 10:39:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:52] [class-ss-page.php:119] Checking Content Identical:3da186cbeecefcb287191dccf1a1363c7c431729===. Value: FALSE
+[2024-11-07 10:39:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/hubungi-kami/
+[2024-11-07 10:39:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 40
+[2024-11-07 10:39:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98f84dfd5-5CLfIG.tmp
+[2024-11-07 10:39:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/hubungi-kami/?simply_static_page=532
+[2024-11-07 10:39:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/hubungi-kami/?simply_static_page=532
+[2024-11-07 10:39:52] [class-ss-url-fetcher.php:103] Filesize: 115472 bytes
+[2024-11-07 10:39:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:39:52] [class-ss-url-fetcher.php:233] New filename for static page: /hubungi-kami/index.html
+[2024-11-07 10:39:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98f84dfd5-5CLfIG.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/hubungi-kami/index.html
+[2024-11-07 10:39:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:53] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-11-07 10:39:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:54] [class-ss-page.php:119] Checking Content Identical:541659d2a71375a3317b54b8b0b67f91ff9c203e===. Value: FALSE
+[2024-11-07 10:39:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/disclaimer-page/
+[2024-11-07 10:39:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 40
+[2024-11-07 10:39:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fa17d60-VcKoiP.tmp
+[2024-11-07 10:39:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/disclaimer-page/?simply_static_page=533
+[2024-11-07 10:39:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/disclaimer-page/?simply_static_page=533
+[2024-11-07 10:39:54] [class-ss-url-fetcher.php:103] Filesize: 116847 bytes
+[2024-11-07 10:39:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:39:54] [class-ss-url-fetcher.php:233] New filename for static page: /disclaimer-page/index.html
+[2024-11-07 10:39:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fa17d60-VcKoiP.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/disclaimer-page/index.html
+[2024-11-07 10:39:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:55] [class-ss-page.php:119] Checking Content Identical:169dc62ac13354d9b96f44157d92c7e14740f1b4===. Value: FALSE
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/2024/11/
+[2024-11-07 10:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 40
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fbcb407-z6lXre.tmp
+[2024-11-07 10:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/2024/11/?simply_static_page=534
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/2024/11/?simply_static_page=534
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:103] Filesize: 1291 bytes
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/index.html
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fbcb407-z6lXre.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/2024/11/index.html
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:55] [class-ss-page.php:119] Checking Content Identical:382dfcc38590950d8a3d0cac9c401df5e00c217a===. Value: FALSE
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-includes/js/dist/hooks.min.js
+[2024-11-07 10:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 40
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fbda326-w6k4lO.tmp
+[2024-11-07 10:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-includes/js/dist/hooks.min.js?simply_static_page=535
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-includes/js/dist/hooks.min.js?simply_static_page=535
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fbda326-w6k4lO.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-includes/js/dist/hooks.min.js
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:55] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-includes/js/dist/i18n.min.js
+[2024-11-07 10:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 40
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fbe2c2c-OLKtWw.tmp
+[2024-11-07 10:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-includes/js/dist/i18n.min.js?simply_static_page=536
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-includes/js/dist/i18n.min.js?simply_static_page=536
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-11-07 10:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fbe2c2c-OLKtWw.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-includes/js/dist/i18n.min.js
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc01db6-QDjt6L.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=537
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=537
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 12512 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc01db6-QDjt6L.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:3c76d4209fdbcbd3650655852ad4ed73846e15ff===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc162cc-oWA8UO.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=538
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=538
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 13452 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc162cc-oWA8UO.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:70a679e2769825236f83bcc56965a9d0bd86c4e9===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/js/menu.min.js
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc2833f-bbak7p.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/js/menu.min.js?simply_static_page=539
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/js/menu.min.js?simply_static_page=539
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 7333 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/js/menu.min.js
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc2833f-bbak7p.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/themes/generatepress/assets/js/menu.min.js
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:7452d643e468caf6db8ecf07618f1cb7ff3f7651===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/js/back-to-top.min.js
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc2e962-qWJFHI.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/js/back-to-top.min.js?simply_static_page=540
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/js/back-to-top.min.js?simply_static_page=540
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 737 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/js/back-to-top.min.js
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc2e962-qWJFHI.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/themes/generatepress/assets/js/back-to-top.min.js
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:0091cadf005c865d7c4ef093fac9d35566fd1e48===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/uploads/2024/11/fav.png
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc36815-6tISNO.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/uploads/2024/11/fav.png?simply_static_page=541
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/uploads/2024/11/fav.png?simply_static_page=541
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 14381 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/fav.png
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc36815-6tISNO.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/uploads/2024/11/fav.png
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:1641f3bacfedd5ee19e86400d054bf681d54e0c2===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/feed/
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc404d5-KEH0T2.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/feed/?simply_static_page=542
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/feed/?simply_static_page=542
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc404d5-KEH0T2.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/feed/index.html
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:12901974b4319076d33fe1a7b92862c9f59a8c54===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/comments/feed/
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc51a72-OZeDwi.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/comments/feed/?simply_static_page=543
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/comments/feed/?simply_static_page=543
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 1344 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc51a72-OZeDwi.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/comments/feed/index.html
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:fff4127e9350f840c329c6751f4fa27c4fd3c914===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-includes/css/dist/block-library/style.min.css
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc5ec44-nlpS0I.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-includes/css/dist/block-library/style.min.css?simply_static_page=544
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-includes/css/dist/block-library/style.min.css?simply_static_page=544
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc5ec44-nlpS0I.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-includes/css/dist/block-library/style.min.css
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc72e22-EbgZ1k.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=545
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=545
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 2894 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc72e22-EbgZ1k.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:dbc9c4139e49d0d9fb41b7191aad1a2db6c555fd===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc7deb3-lw7rtB.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css?simply_static_page=546
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css?simply_static_page=546
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 12551 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc7deb3-lw7rtB.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:522daa8cfb0cb290ac48d486b0e620ce6e0175b2===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/style.min.css
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fc909f1-Mfd9uS.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/css/style.min.css?simply_static_page=547
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/style.min.css?simply_static_page=547
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 21908 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/style.min.css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fc909f1-Mfd9uS.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/themes/generatepress/assets/css/style.min.css
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:3437be24287bc1869006ddab52b7cf49e8fe9dbd===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/mobile.min.css
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fca3c0f-9PDcos.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/css/mobile.min.css?simply_static_page=548
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/mobile.min.css?simply_static_page=548
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 3781 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/mobile.min.css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fca3c0f-9PDcos.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/themes/generatepress/assets/css/mobile.min.css
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:84edbc8dfedb66d55c195fef1397b9ce4232ac33===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/components/font-icons.min.css
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fcadb55-qnu1PF.tmp
+[2024-11-07 10:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/wp-content/themes/generatepress/assets/css/components/font-icons.min.css?simply_static_page=549
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/wp-content/themes/generatepress/assets/css/components/font-icons.min.css?simply_static_page=549
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:103] Filesize: 3324 bytes
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/generatepress/assets/css/components/font-icons.min.css
+[2024-11-07 10:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fcadb55-qnu1PF.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/wp-content/themes/generatepress/assets/css/components/font-icons.min.css
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:56] [class-ss-page.php:119] Checking Content Identical:1a99eede86d147d03be4654d44bdb85edf952585===. Value: FALSE
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/xmlrpc.php
+[2024-11-07 10:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 40
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/xmlrpc.php
+[2024-11-07 10:39:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:39:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 8 of 40 pages/files
+[2024-11-07 10:39:56] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-07 10:39:57] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 10:39:57] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 10:39:57] [class-ss-fetch-urls-task.php:69] Total pages: 56; Pages remaining: 16
+[2024-11-07 10:39:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/kendaraan-listrik/feed/
+[2024-11-07 10:39:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 56
+[2024-11-07 10:39:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fd646cd-Yjd8r9.tmp
+[2024-11-07 10:39:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/kendaraan-listrik/feed/?simply_static_page=552
+[2024-11-07 10:39:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/kendaraan-listrik/feed/?simply_static_page=552
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:103] Filesize: 10548 bytes
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:233] New filename for static page: /category/kendaraan-listrik/feed/index.xml
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fd646cd-Yjd8r9.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category/kendaraan-listrik/feed/index.xml
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:58] [class-ss-page.php:119] Checking Content Identical:a86de6eef2cc2c97a7c2117bf968a2d587cc30cb===. Value: FALSE
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/wp/v2/categories/14
+[2024-11-07 10:39:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 56
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/wp/v2/categories/14
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/motor/feed/
+[2024-11-07 10:39:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 56
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98fe157f8-HZ29gh.tmp
+[2024-11-07 10:39:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/motor/feed/?simply_static_page=554
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/motor/feed/?simply_static_page=554
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:103] Filesize: 10512 bytes
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:233] New filename for static page: /category/motor/feed/index.xml
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98fe157f8-HZ29gh.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category/motor/feed/index.xml
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:58] [class-ss-page.php:119] Checking Content Identical:57f387a302a70f1dc2e907bd06dd0f2d7cf5200b===. Value: FALSE
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/wp/v2/categories/13
+[2024-11-07 10:39:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 56
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/wp/v2/categories/13
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/terms-and-conditional/feed/
+[2024-11-07 10:39:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 56
+[2024-11-07 10:39:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98feba767-hOjbsg.tmp
+[2024-11-07 10:39:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/terms-and-conditional/feed/?simply_static_page=556
+[2024-11-07 10:39:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/terms-and-conditional/feed/?simply_static_page=556
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:103] Filesize: 819 bytes
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:233] New filename for static page: /terms-and-conditional/feed/index.xml
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98feba767-hOjbsg.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/terms-and-conditional/feed/index.xml
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:39:59] [class-ss-page.php:119] Checking Content Identical:d3a6f644b1d9fd346a84c53a2676d10192905792===. Value: FALSE
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/wp/v2/posts/104
+[2024-11-07 10:39:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 56
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/wp/v2/posts/104
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/oembed/1.0/embed
+[2024-11-07 10:39:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 56
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/oembed/1.0/embed
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/category/uncategorized/feed/
+[2024-11-07 10:39:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 56
+[2024-11-07 10:39:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c98ff5dcde-Vm3v3g.tmp
+[2024-11-07 10:39:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/category/uncategorized/feed/?simply_static_page=559
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/category/uncategorized/feed/?simply_static_page=559
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:103] Filesize: 19310 bytes
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-11-07 10:39:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c98ff5dcde-Vm3v3g.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/category/uncategorized/feed/index.xml
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:159] Adding 8 URLs to the queue
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:40:00] [class-ss-page.php:119] Checking Content Identical:52accdb2fc3fa60f82b4a94d246a9fa043ee911c===. Value: FALSE
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/wp/v2/categories/1
+[2024-11-07 10:40:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 56
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/wp/v2/categories/1
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/tentang-automospeed/feed/
+[2024-11-07 10:40:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 56
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:40:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c990010ce9-MhN5si.tmp
+[2024-11-07 10:40:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/tentang-automospeed/feed/?simply_static_page=561
+[2024-11-07 10:40:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/tentang-automospeed/feed/?simply_static_page=561
+[2024-11-07 10:40:00] [class-ss-url-fetcher.php:103] Filesize: 813 bytes
+[2024-11-07 10:40:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 10:40:00] [class-ss-url-fetcher.php:233] New filename for static page: /tentang-automospeed/feed/index.xml
+[2024-11-07 10:40:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c990010ce9-MhN5si.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/tentang-automospeed/feed/index.xml
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:40:00] [class-ss-page.php:119] Checking Content Identical:e7a52077714f950db9ee990a56d4a8feae379bad===. Value: FALSE
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/wp/v2/posts/102
+[2024-11-07 10:40:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 56
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/wp/v2/posts/102
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/hubungi-kami/feed/
+[2024-11-07 10:40:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 56
+[2024-11-07 10:40:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:40:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c9900ae0cd-DoSkEw.tmp
+[2024-11-07 10:40:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/hubungi-kami/feed/?simply_static_page=563
+[2024-11-07 10:40:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/hubungi-kami/feed/?simply_static_page=563
+[2024-11-07 10:40:01] [class-ss-url-fetcher.php:103] Filesize: 792 bytes
+[2024-11-07 10:40:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 10:40:01] [class-ss-url-fetcher.php:233] New filename for static page: /hubungi-kami/feed/index.xml
+[2024-11-07 10:40:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c9900ae0cd-DoSkEw.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/hubungi-kami/feed/index.xml
+[2024-11-07 10:40:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:40:01] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-07 10:40:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:40:01] [class-ss-page.php:119] Checking Content Identical:ad5266ecb5970a89a38af84a9e16c37c740933fb===. Value: FALSE
+[2024-11-07 10:40:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/wp/v2/posts/100
+[2024-11-07 10:40:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 56
+[2024-11-07 10:40:01] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/wp/v2/posts/100
+[2024-11-07 10:40:01] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:40:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/disclaimer-page/feed/
+[2024-11-07 10:40:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 56
+[2024-11-07 10:40:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:40:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c990153832-7Jf7xx.tmp
+[2024-11-07 10:40:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/disclaimer-page/feed/?simply_static_page=565
+[2024-11-07 10:40:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/disclaimer-page/feed/?simply_static_page=565
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:103] Filesize: 801 bytes
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:233] New filename for static page: /disclaimer-page/feed/index.xml
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c990153832-7Jf7xx.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/disclaimer-page/feed/index.xml
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:40:02] [class-ss-page.php:119] Checking Content Identical:fee09dd7e2fd9a182e2dedcd1a78cc45c3262052===. Value: FALSE
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/wp-json/wp/v2/posts/98
+[2024-11-07 10:40:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 56
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/automospeed/wp-json/wp/v2/posts/98
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed/feed/index.xml
+[2024-11-07 10:40:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 56
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c99020a80c-K1nzWx.tmp
+[2024-11-07 10:40:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/feed/index.xml?simply_static_page=567
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/feed/index.xml?simply_static_page=567
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:103] Filesize: 1680 bytes
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c99020a80c-K1nzWx.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973/feed/index.xml
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-07 10:40:02] [class-ss-page.php:119] Checking Content Identical:ac5927ce62aff9db1015deefc5569bf00c0ad165===. Value: FALSE
+[2024-11-07 10:40:02] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 40 of 56 pages/files
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:69] Total pages: 57; Pages remaining: 1
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/automospeed
+[2024-11-07 10:40:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 57
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c99021284c-GQz2Yp.tmp
+[2024-11-07 10:40:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed?simply_static_page=568
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed?simply_static_page=568
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:103] Filesize: 359 bytes
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/automospeed/
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-11-07 10:40:02] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 56 of 57 pages/files
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-07 10:40:02] [class-ss-fetch-urls-task.php:69] Total pages: 57; Pages remaining: 0
+[2024-11-07 10:40:02] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 57 of 57 pages/files
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-11-07 10:40:02] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-11-07 10:40:02] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LENOVO\AppData\Local\Temp/672c99021d7aa-Y2byLh.tmp
+[2024-11-07 10:40:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/automospeed/1730976003?simply_static_page=0
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/automospeed/1730976003?simply_static_page=0
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:103] Filesize: 108806 bytes
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-11-07 10:40:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LENOVO\AppData\Local\Temp/672c99021d7aa-Y2byLh.tmp to D:\XAMPP\htdocs\automospeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1730975973\404/index.html
+[2024-11-07 10:40:02] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-11-07 10:40:03] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-11-07 10:40:03] [class-ss-page.php:119] Checking Content Identical:dcabdbe1d4814a459cdb44b3497dbbd22e9738ea===. Value: FALSE
+[2024-11-07 10:40:03] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-11-07 10:40:03] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-11-07 10:40:03] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-11-07 10:40:03] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-11-07 10:40:03] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 45 of 45 files
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/ini-dia-10-tips-membeli-mobil-bekas-berkualitas-agar-tidak-tertipu-penjual
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/author/automadmin
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/author/automadmin
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/kendaraan-listrik
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/kendaraan-listrik
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/mobil
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/mobil
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/mobil-bekas
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/mobil-bekas
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/motor
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/motor
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/tag/mobil
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/tag/mobil
+[2024-11-07 10:40:03] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/tag/mobil-bekas
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/tag/mobil-bekas
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/tag/tips
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/tag/tips
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/terms-and-conditional
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/terms-and-conditional
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/uncategorized
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/uncategorized
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/tentang-automospeed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/tentang-automospeed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/hubungi-kami
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/hubungi-kami
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/disclaimer-page
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/disclaimer-page
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/2024/11
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/2024/11
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-includes/js/dist
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-includes/js/dist
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-includes/js/dist
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-includes/js/dist
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/swv/js
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/swv/js
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/js
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/js
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/js
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/js
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/js
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/js
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/uploads/2024/11
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/uploads/2024/11
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/comments/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/comments/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-includes/css/dist/block-library
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-includes/css/dist/block-library
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/css
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/plugins/contact-form-7/includes/css
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css/components
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/wp-content/themes/generatepress/assets/css/components
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/kendaraan-listrik/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/kendaraan-listrik/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/motor/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/motor/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/terms-and-conditional/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/terms-and-conditional/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/category/uncategorized/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/category/uncategorized/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/tentang-automospeed/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/tentang-automospeed/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/hubungi-kami/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/hubungi-kami/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/disclaimer-page/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/disclaimer-page/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/XAMPP/htdocs/automospeed/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:124] Successfully transferred: D:/XAMPP/htdocs/automospeed/feed
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:45. Processed Pages: 45
+[2024-11-07 10:40:04] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 45 of 45 files
+[2024-11-07 10:40:04] [trait-can-process-pages.php:110] Total pages: 45; Pages remaining: 0
+[2024-11-07 10:40:04] [class-ss-transfer-files-locally-task.php:254] Transferring 404 Page
+[2024-11-07 10:40:04] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://automospeed.web.id/" target="_blank">https://automospeed.web.id/</a>
+[2024-11-07 10:40:04] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-11-07 10:40:04] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-11-07 10:40:04] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-11-07 10:40:04] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-11-07 10:40:04] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-11-07 10:40:04] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-11-07 10:40:04] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-11-07 10:40:04] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:31
