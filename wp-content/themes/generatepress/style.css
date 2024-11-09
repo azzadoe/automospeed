@@ -20,3 +20,36 @@ GeneratePress is based on Underscores http://underscores.me/, (C) 2012-2024 Auto
 
 Actual CSS can be found in /assets/css/ folder.
 */
+/* Paging navigation style */
+.paging-navigation .nav-links > * {
+        padding: 7px 15px;
+	margin-right: 0px;
+	border-radius: 0px;
+	display: inline-block;
+	border: 1px solid #34393f;
+	background: #ffffff;
+}
+
+.paging-navigation .nav-links a:hover {
+        background-color: #34393f;
+	border-color: #34393f;
+        color: #ffffff;
+}
+
+.paging-navigation .nav-links .current {
+	background-color: #34393f;
+	border-color: #34393f;
+        color: #ffffff;
+}
+
+.paging-navigation .nav-links .current {
+        font-weight: 700;
+}
+
+.nav-links > * {
+         border-width: 2px;
+         border-style: solid;
+         border-color: #34393f;
+	 text-decoration: none;
+	 color: #34393f;
+}
