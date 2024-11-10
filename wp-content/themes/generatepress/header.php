@@ -12,6 +12,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLK5SJW2DG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FLK5SJW2DG');
+</script>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<?php wp_head(); ?>
 </head>
